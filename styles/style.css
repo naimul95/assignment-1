@@ -24,6 +24,7 @@ body{
       border: none;
       border-radius: 10px;
       cursor: pointer;
+      text-decoration: none;
       }
       
     .primary-button:hover{
@@ -232,3 +233,49 @@ body{
  }
 
  /* end-focus section */
+
+ /* touch-section */
+
+ .touch-section{background-color: rgba(255, 255, 255, 0.5);
+    width: 1140px; height:630px;
+    display: flex;
+    gap: 115px;
+    margin: 93px  auto;
+ }
+
+.touch-h3{
+    font-size: 100px;
+    font-weight: bold;
+    width: 500px; height: 232px;
+    text-align: center;
+}
+
+.form-h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+   
+}
+
+ .input{
+   border:1px solid rgba(214, 221, 237, 1);
+   background-color: white;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px ;
+    padding:20px 271px 20px 32px;
+ }
+ 
+.textarea{
+    border:1px solid rgba(214, 221, 237, 1);
+    background-color: white;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px ;
+    padding:20px 295px 20px 32px;
+}
+ .touch-btn{
+    padding: 19px 278px 19px 201px;
+    display: block;
+    margin-top: 19px;
+}
+/* end-touch-section */
