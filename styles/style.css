@@ -279,3 +279,35 @@ body{
     margin-top: 19px;
 }
 /* end-touch-section */
+
+/* footer */
+
+.footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 104px 455px;
+}
+
+.footer-title{ text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 0px;
+    }
+
+.footer-para{ color: rgba(137, 135, 161, 1);
+    width: 531px;height: 48px;
+    margin-top: 0px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    padding-left: 30px;
+}
+
+.fotter-links {
+    display: flex;
+   gap: 48px;
+} 
+
+/* end-footer */
