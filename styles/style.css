@@ -202,3 +202,33 @@ body{
  }
  /* end-feedback section */
 
+ /* focus-section */
+ .focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+ }
+
+.focus-para{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+}
+
+.focus-btn{
+    padding: 12px 36px;
+  
+}
+ .focus-img{
+    border-radius: 48px;
+    margin-top: 20px;
+ }
+
+ .focus-section{
+    margin: 137px auto;
+    text-align: center;
+    padding-top: 71px;
+    background-color:rgba(244, 244, 244, 1);
+    width: 1140px; height: 632px;
+ }
+
+ /* end-focus section */
